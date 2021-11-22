@@ -1,0 +1,11 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 10em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 1em;
+
+  &>* {
+    margin: 0.2em 0;
+  }
+}

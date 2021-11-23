@@ -88,18 +88,5 @@ describe('AppComponent', () => {
       expect(component.characters[0]).not.toBe(testCharacter);
     })
     
-  })
-
-  // it(`should have as title 'UnitTestWorkshop'`, () => {
-  //   const fixture = TestBed.createComponent(AppComponent);
-  //   const app = fixture.componentInstance;
-  //   expect(app.title).toEqual('UnitTestWorkshop');
-  // });
-
-  // it('should render title', () => {
-  //   const fixture = TestBed.createComponent(AppComponent);
-  //   fixture.detectChanges();
-  //   const compiled = fixture.nativeElement as HTMLElement;
-  //   expect(compiled.querySelector('.content span')?.textContent).toContain('UnitTestWorkshop app is running!');
-  // });
+  });
 });

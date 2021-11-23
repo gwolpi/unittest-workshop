@@ -1,7 +1,7 @@
 <form [formGroup]="characterForm" (ngSubmit)="submitCharacterForm()">
   <label for="characterId">Character Id</label>
-  <input name="characterId" formControlName="characterId" />
-  <button type="submit">Submit</button>
+  <input data-testid="input-field" name="characterId" formControlName="characterId" />
+  <button data-testid="submit-button" type="submit">Submit</button>
 </form>
 
 <div class="character">

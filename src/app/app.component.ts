@@ -28,6 +28,7 @@ export class AppComponent implements OnInit {
   submitCharacterForm(): void {
     const { characterId } = this.characterForm.value;
     this.appService.getCharacter(characterId).subscribe((character: Character) => {
+      this.characterForm.reset();
       this.characters.push(character)
     });
   }

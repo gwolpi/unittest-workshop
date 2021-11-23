@@ -31,5 +31,4 @@ export class AppComponent implements OnInit {
       this.characters.push(character)
     });
   }
-
 }
